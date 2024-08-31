@@ -318,9 +318,9 @@ function userCanSeeFooter() {
   var params = parseQueryParams(window.location.search);
   var ucsf = params.ucsf;
   ucsf = (ucsf === "true" || ucsf === "1" || _.isUndefined(ucsf));
-  if (!ucsf) {
-    ucsf = true;
-  }
+  //if (!ucsf) {
+  //  ucsf = true;
+  //}
   return ucsf;
 }
 
